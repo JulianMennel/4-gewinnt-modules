@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsr305-3.0.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_39992b49/target/823b57d8/1dddabdd/jsr305-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

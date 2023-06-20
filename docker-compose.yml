@@ -1,0 +1,65 @@
+version: "1.2"
+name: "viergewinnt"
+services:
+  view:
+    container_name: "view"    
+    image: "view:latest"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - core
+      - controller
+  io:
+    container_name: "io"    
+    image: "io:latest"
+    ports:
+      - "8081:8081"
+    depends_on:
+      - core
+  core:
+    container_name: "core"    
+    image: "core:latest"
+    ports:
+      - "8082:8082"
+  controller:
+    container_name: "controller"
+    image: "controller:latest"
+    ports:
+      - "8083:8083"
+    depends_on:
+      - core
+      - io
+#  db:
+#    container_name: "db"
+#    image: "mysql:5.7"
+#    ports:
+#      - "3307:3306"
+#    environment:
+#      MYSQL_DATABASE: "db"
+#      MYSQL_USER: "user"
+#      MYSQL_PASSWORD: "password"
+#      MYSQL_ROOT_PASSWORD: "password"
+  db2:
+    container_name: "db2"
+    image: "mongo:latest"
+    ports:
+      - "27018:27017"
+    environment:
+      MONGO_INITDB_DATABASE: "db2"
+      MONGO_INITDB_ROOT_USERNAME: "user"
+      MONGO_INITDB_ROOT_PASSWORD: "password"
+  root:
+    container_name: "root"    
+    image: "root:latest"
+    ports:
+      - "8084:8084"
+    depends_on:
+      - view
+      - controller
+      - core
+      - db2
+    environment:
+      #SPRING_DATASOURCE_URL: "jdbc:mysql://db:3306/db?autoReconnect=true&useSSL=false"
+      SPRING_DATASOURCE_URL: "mongodb://user:password@localhost:27017/?authSource=admin"
+
+

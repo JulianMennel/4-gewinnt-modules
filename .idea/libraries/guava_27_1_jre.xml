@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="guava-27.1-jre">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_e1623bd2/target/976e831b/db08aa3d/guava-27.1-jre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

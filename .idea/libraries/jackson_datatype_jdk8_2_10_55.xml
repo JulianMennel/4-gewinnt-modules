@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-datatype-jdk8-2.10.55">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_3ee90b98/target/eb2cbae8/abf28902/jackson-datatype-jdk8-2.10.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

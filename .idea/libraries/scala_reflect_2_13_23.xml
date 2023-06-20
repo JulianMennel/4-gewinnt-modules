@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scala-reflect-2.13.23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_db25c6b2/target/a8c0d296/f40a418b/scala-reflect-2.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

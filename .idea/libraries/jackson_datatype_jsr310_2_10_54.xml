@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-datatype-jsr310-2.10.54">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_39992b49/target/20137425/39790502/jackson-datatype-jsr310-2.10.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

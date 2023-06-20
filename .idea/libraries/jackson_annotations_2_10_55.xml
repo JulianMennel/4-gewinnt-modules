@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-annotations-2.10.55">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_db25c6b2/target/567c78e9/b040a272/jackson-annotations-2.10.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

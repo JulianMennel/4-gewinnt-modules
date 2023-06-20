@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_71e4594/target/ddfebe35/7525adc2/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

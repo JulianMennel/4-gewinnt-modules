@@ -1,0 +1,17 @@
+*.class
+*.log
+*.jar
+*.tasty
+*.vscode
+*.json
+*.db
+*.bloop
+*.bsp
+*.metals
+*.cache
+project/project/
+project/target/
+target/
+project/metals.sbt
+.scalafmt.conf
+.gitattributes

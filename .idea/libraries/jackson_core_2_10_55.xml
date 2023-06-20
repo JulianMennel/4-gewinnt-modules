@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-core-2.10.55">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_e1623bd2/target/639694da/6d19a5aa/jackson-core-2.10.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
